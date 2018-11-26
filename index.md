@@ -12,11 +12,11 @@ Its main features are:
 - Clean and easy-to-use UI. No gimmicks that might distract the user from their objective.
 - Constant updates, to keep the driver fresh and always up-to-date to users requests.
 
-Source code: https://github.com/KeppySoftware/OmniMIDI/<br />
-Releases: https://github.com/KeppySoftware/OmniMIDI/releases
+Source code: [https://github.com/KeppySoftware/OmniMIDI](OmniMIDI source)<br />
+Releases: [https://github.com/KeppySoftware/OmniMIDI/releases](OmniMIDI releases)
 
 ### Keppy's MIDI Converter
-Keppy's MIDI Converter is a freeware, fully functional MIDI to WAV converter.
+Keppy's MIDI Converter *(Formerly known as Keppy's Spartan MIDI Converter)* is a freeware, fully functional MIDI to WAV converter.
 
 Its main features are:
 - It's **FREE**, unlike most other converters.
@@ -24,25 +24,25 @@ Its main features are:
 - Ships with LoudMax, which prevents the audio from clipping.
 - Support for VST instruments.
 
-Source code: https://github.com/KeppySoftware/KMC<br />
-Releases: https://github.com/KeppySoftware/KMC/releases
+Source code: [https://github.com/KeppySoftware/KMC](KMC source)<br />
+Releases: [https://github.com/KeppySoftware/KMC/releases](KMC releases)
 
 ### KDMAPI
 An extension of OmniMIDI's engine.<br />
 It allows developers to directly interface their application with the driver, to get rid of the latency and unresponsiveness introduced by Windows Multimedia.
 
-Guide: https://github.com/KeppySoftware/OmniMIDI/blob/master/DeveloperContent/KDMAPI.md<br />
-Developer content: https://github.com/KeppySoftware/OmniMIDI/tree/master/DeveloperContent
+Guide: [https://github.com/KeppySoftware/OmniMIDI/blob/master/DeveloperContent/KDMAPI.md](Official KDMAPI documentation)<br />
+Developer content: [https://github.com/KeppySoftware/OmniMIDI/tree/master/DeveloperContent](Developer content)
 
 ### Windows Multimedia Wrapper
 A replacement for WINMM, which allows non-KDMAPI applications to make use of the API.<br />
 KDMAPI will **only** work with OmniMIDI.
 
-Source code: https://github.com/KeppySoftware/WinMMWRP<br />
+Source code: [https://github.com/KeppySoftware/WinMMWRP](WinMMWRP source)<br />
 Releases: **Built into OmniMIDI's configurator**
 
 ### Contact me
 Do you need help? Contact me via e-mail or Discord.
 
 E-mail: [kaleidonkep99@outlook.com](mailto:kaleidonkep99@outlook.com)
-Official Discord server: https://discord.gg/73DVswT
+Official Discord server: [https://discord.gg/73DVswT](Keppy's Software - Feedback Server)
