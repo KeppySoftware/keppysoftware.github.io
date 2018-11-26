@@ -1,37 +1,48 @@
-## Welcome to GitHub Pages
+## What's "Keppy's Software"?
+This is the name I use for publishing my software, targeted towards professionals.
 
-You can use the [editor on GitHub](https://github.com/KeppySoftware/keppysoftware.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## Projects
+### OmniMIDI
+OmniMIDI *(Formerly known as Keppy's Synthesizer)* is a MIDI driver for professional use.<br />
+It is a fork of the original [BASSMIDI Driver](https://github.com/kode54/BASSMIDI-Driver) by Kode54.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Its main features are:
+- Support for multiple audio APIs. *(DirectX Audio, WASAPI and ASIO)*
+- Distributes the workload of the MIDI events parser and audio renderer on multiple threads, to ensure speed and responsiveness on the worst case scenarios.
+- Clean and easy-to-use UI. No gimmicks that might distract the user from their objective.
+- Constant updates, to keep the driver fresh and always up-to-date to users requests.
 
-### Markdown
+Source code: https://github.com/KeppySoftware/OmniMIDI/<br />
+Releases: https://github.com/KeppySoftware/OmniMIDI/releases
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Keppy's MIDI Converter
+Keppy's MIDI Converter is a freeware, fully functional MIDI to WAV converter.
 
-```markdown
-Syntax highlighted code block
+Its main features are:
+- It's **FREE**, unlike most other converters.
+- Clean and easy-to-use UI. No gimmicks that might distract the user from their objective. Just like OmniMIDI!
+- Ships with LoudMax, which prevents the audio from clipping.
+- Support for VST instruments.
 
-# Header 1
-## Header 2
-### Header 3
+Source code: https://github.com/KeppySoftware/KMC<br />
+Releases: https://github.com/KeppySoftware/KMC/releases
 
-- Bulleted
-- List
+### KDMAPI
+An extension of OmniMIDI's engine.<br />
+It allows developers to directly interface their application with the driver, to get rid of the latency and unresponsiveness introduced by Windows Multimedia.
 
-1. Numbered
-2. List
+Guide: https://github.com/KeppySoftware/OmniMIDI/blob/master/DeveloperContent/KDMAPI.md<br />
+Developer content: https://github.com/KeppySoftware/OmniMIDI/tree/master/DeveloperContent
 
-**Bold** and _Italic_ and `Code` text
+### Windows Multimedia Wrapper
+A replacement for WINMM, which allows non-KDMAPI applications to make use of the API.<br />
+KDMAPI will **only** work with OmniMIDI.
 
-[Link](url) and ![Image](src)
-```
+Source code: https://github.com/KeppySoftware/WinMMWRP<br />
+Releases: **Built into OmniMIDI's configurator**
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Contact me
+Do you need help? Contact me via e-mail or Discord.
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/KeppySoftware/keppysoftware.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+E-mail: [kaleidonkep99@outlook.com](mailto:kaleidonkep99@outlook.com)
+Official Discord server: https://discord.gg/73DVswT
