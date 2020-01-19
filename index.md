@@ -45,4 +45,3 @@ Releases: **Built into OmniMIDI's configurator**
 Do you need help? Contact me via e-mail or Discord.
 
 E-mail: [kaleidonkep99@outlook.com](mailto:kaleidonkep99@outlook.com)
-Official Discord server: [Keppy's Software - Feedback Server](https://discord.gg/73DVswT)
